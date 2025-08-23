@@ -1,0 +1,5 @@
+streamlit
+langchain
+langchain-openai
+tree-sitter
+tree-sitter-languages
