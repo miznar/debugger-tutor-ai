@@ -3,7 +3,7 @@ from typing import Literal
 
 # Prefer modern LangChain OpenAI client; graceful fallback if not installed or quota exceeded.
 def llm_status() -> Literal["ready", "no_api_key", "quota_or_offline"]:
-    if not os.getenv("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"):
+    if not os.getenv("openapikey"):
         return "no_api_key"
     return "ready"
 
